@@ -36,7 +36,7 @@ const Index = () => {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center rounded-md">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight">
@@ -51,7 +51,7 @@ const Index = () => {
           {/* Waitlist Form */}
           <div className="mt-12">
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} required className="flex-1 bg-white/10 text-white placeholder:text-gray-400 backdrop-blur-sm" />
+              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} required className="flex-1 bg-white/10 text-white placeholder:text-gray-400 backdrop-blur-sm rounded-lg" />
               <Button type="submit" disabled={isLoading} className="bg-white text-black hover:bg-gray-200 px-6 py-2 font-medium">
                 {isLoading ? "Joining..." : "Join waitlist"}
                 <ArrowRight className="ml-2 h-4 w-4" />
