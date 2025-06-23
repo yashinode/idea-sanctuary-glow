@@ -49,7 +49,7 @@ const Index = () => {
           {/* Waitlist Form */}
           <div className="mt-12">
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} required className="flex-1 bg-white/10 text-white placeholder:text-gray-400 backdrop-blur-sm rounded-lg" />
+              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} required className="flex-1 bg-white/10 text-white placeholder:text-gray-400 rounded-lg" />
               <Button type="submit" disabled={isLoading} className="bg-white text-black hover:bg-gray-200 px-6 py-2 font-medium">
                 {isLoading ? "Joining..." : "Join waitlist"}
                 <ArrowRight className="ml-2 h-4 w-4" />
