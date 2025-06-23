@@ -44,7 +44,7 @@ const Index = () => {
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed md:text-base">
             A sanctuary to your ideas, shower thoughts, notes, random scribbles, anything!
           </p>
 
