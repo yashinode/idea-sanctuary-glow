@@ -37,7 +37,7 @@ const Index = () => {
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto space-y-6">
           {/* Main Heading */}
           <h1 className="text-5xl lg:text-8xl text-white tracking-tight md:text-6xl font-bold text-center">
             Think Sanctuary.
