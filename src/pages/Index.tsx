@@ -39,9 +39,7 @@ const Index = () => {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center rounded-md">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight">
-            Think Sanctuary
-          </h1>
+          <h1 className="text-5xl lg:text-8xl text-white tracking-tight md:text-6xl font-bold text-center">Think Sanctuary.</h1>
           
           {/* Subtitle */}
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed md:text-base">
